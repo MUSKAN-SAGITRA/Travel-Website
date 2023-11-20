@@ -1,0 +1,21 @@
+.world{
+   width:100px;
+   height:100px;
+   background-color: blueviolet;
+   margin:100px auto;
+   transform-origin: 10px 20px;
+   font-size: 1.5rem;
+    transition:transform 2s ease-in-out;
+    /* transform: skewy(60deg); */
+     /* transform:skew(30deg,40deg);  */
+
+
+   
+   
+}
+.world:hover{
+     transform: rotate(350deg);
+    /* transform:scale(3,4);  */
+    /* transform: translate(100px,90px); */
+    /* transform:skewy(40deg) ; */
+}

@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+} 
+.practicle{
+    border: 2px solid black;
+}
+.box1{
+background-color: lightpink;
+    float: left;
+    padding: 1rem;
+    width:49% ;
+}
+.box2{
+    background-color: lightpink;
+    float: right;
+    padding:1rem;
+    width:49%;
+}
+.practicle::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+@media (max-width:819px){
+    .box1,.box2{
+        float:none;
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: aquamarine;
+    }
+}

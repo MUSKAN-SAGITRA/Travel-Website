@@ -1,0 +1,55 @@
+.aaa{
+    width: 60px;
+    height:60px;
+    background-color:lightslategrey ;
+    border-radius: 50%;
+    position: relative;
+    animation-name:cricle;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 2s; */
+animation-fill-mode: forwards;
+}
+@keyframes cricle{
+    0%{
+        top:0px;
+        left:0px;
+       background-color: lime;
+    }
+15%{
+   
+    background-color: rgb(9, 24, 231);
+}
+30%{
+    top:0px;
+    left:500px;
+    background-color: blueviolet;
+}
+45%{
+    background-color: aqua;
+}
+60%{
+    background-color: crimson;
+    top:500px;
+    left:500px;
+}
+75%{
+    background-color: darkgoldenrod;
+}
+90%{
+    top:500px;
+    left:0px;
+    background-color: darkred;
+}
+105%{
+    background-color: cornflowerblue;
+
+}
+120%{
+    top:0;
+    left:0;
+    background-color:blueviolet;
+}
+
+}
